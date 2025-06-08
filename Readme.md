@@ -46,15 +46,10 @@ Start MySQL server on your machine.
 
 Create the database:
 
-sql
-Copy
-Edit
+[sql]
+
 CREATE DATABASE web_app_db;
 Create the accounts table:
-
-sql
-Copy
-Edit
 USE web_app_db;
 
 CREATE TABLE accounts (
@@ -73,9 +68,8 @@ Note: The paassword column is intentionally spelled as in the original code but 
 
 Update MySQL credentials in app.py if needed:
 
-python
-Copy
-Edit
+[python]
+
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'your_mysql_password'
@@ -85,9 +79,6 @@ Make sure your MySQL server is running.
 
 Run the Flask app:
 
-bash
-Copy
-Edit
 python app.py
 Open your browser and navigate to:
 
