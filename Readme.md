@@ -1,6 +1,6 @@
 # Flask MySQL Web Application
 
-This is a simple Flask web application that provides user registration, login, profile display, and update functionalities using a MySQL database.
+This is a simple Flask web application that provides user registration, login, profile display, and update functionalities using a MySQL database. Extract the Zip in an Folder then start reading this Readme, After Carefully reading the file you will be easily install this web app onto your space. IF you got an issue feel free to reach me out on Linkedin: www.linkedin.com/in/garvmehracse
 
 ---
 
